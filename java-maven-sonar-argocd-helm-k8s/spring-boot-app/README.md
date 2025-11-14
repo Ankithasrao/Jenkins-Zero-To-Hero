@@ -49,6 +49,18 @@ Hurray !! Access the application on `http://<ip-address>:8010`
 
 ## Next Steps
 
+### NOTE : To run SonarQube you need to Install Java 11
+
+### Install OpenJDK 11 (Ubuntu)
+```
+sudo apt-get update
+sudo apt-get install openjdk-11-jdk -y
+```
+### Verify:
+```
+java -version
+```
+
 ### Configure a Sonar Server locally
 
 ```
